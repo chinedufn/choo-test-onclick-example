@@ -1,0 +1,37 @@
+{
+  "name": "choo-test-onclick-example",
+  "version": "0.0.1",
+  "description": "Example of unit testing an choo-created DOM element onclick event in Node.js,",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/choo-test-onclick-example.git"
+  },
+  "keywords": [
+    "choo",
+    "unit",
+    "test",
+    "tape",
+    "dom",
+    "simulate",
+    "event",
+    "click",
+    "handler",
+    "target",
+    "jest"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/choo-test-onclick-example/issues"
+  },
+  "homepage": "https://github.com/chinedufn/choo-test-onclick-example#readme",
+  "dependencies": {
+    "choo": "^6.10.3",
+    "jsdom": "^11.6.2",
+    "tape": "^4.9.0"
+  }
+}
