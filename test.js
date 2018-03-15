@@ -5,6 +5,7 @@ var DOM = new JSDOM(``, {runScripts: 'dangerously'})
 
 global.document = DOM.window.document
 global.window = DOM.window
+global.window.requestAnimationFrame = function (cb) { setTimeout(cb, 0) }
 
 var component = require('./index.js')
 
