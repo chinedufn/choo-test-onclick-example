@@ -17,8 +17,5 @@ test('Simulate click event', function (t) {
     t.equal(data, 'I was clicked!')
   })
 
-  var clickEvent = document.createEvent('CustomEvent')
-  clickEvent.initEvent('click', true, true)
-
-  domElem.querySelector('div').dispatchEvent(clickEvent)
+  domElem.querySelector('div').dispatchEvent(new window.MouseEvent('click'))
 })
